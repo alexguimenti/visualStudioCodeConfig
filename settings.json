@@ -1,0 +1,31 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 1,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "nunjucks": "html",
+    "html": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "prettier.eslintIntegration": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "Dracula",
+  "editor.letterSpacing": 0.5
+}
