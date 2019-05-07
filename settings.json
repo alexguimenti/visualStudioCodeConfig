@@ -1,11 +1,11 @@
 {
   "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": false,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.formatOnSave": true,
   "editor.rulers": [80, 120],
@@ -27,5 +27,9 @@
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
-  "editor.letterSpacing": 0.5
+  "editor.letterSpacing": 0.5,
+  "editor.largeFileOptimizations": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
