@@ -1,0 +1,10 @@
+// This file is located  at: c:\Users\YourName\AppData\Roaming\Code\User
+
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.nextMatchFindAction",
+    "when": "editorTextFocus"
+  }
+]
