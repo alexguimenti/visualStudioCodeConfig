@@ -6,7 +6,7 @@
 [
   {
     "key": "ctrl+d",
-    "command": "editor.action.nextMatchFindAction",
+    "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorTextFocus"
   },
   {
