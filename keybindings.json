@@ -11,7 +11,7 @@
   },
   {
     "key": "ctrl+shift+d",
-    "command": "geeebe.duplicateText",
+    "command": "lafe.duplicateCode",
     "when": "editorTextFocus"
   }
 ]
