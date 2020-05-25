@@ -6,14 +6,22 @@ code --install-extension aaron-bond.better-comments
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
+code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.code-runner
+code --install-extension geeebe.duplicate
 code --install-extension JulioGold.vscode-smart-split-into-lines
 code --install-extension lafe.contextualduplicate
+code --install-extension mechatroner.rainbow-csv
 code --install-extension ms-mssql.mssql
+code --install-extension ms-python.python
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.cpptools
 code --install-extension naumovs.color-highlight
 code --install-extension oderwat.indent-rainbow
 code --install-extension PKief.material-icon-theme
-code --install-extension rocketseat.RocketseatReactJS
-code --install-extension rocketseat.RocketseatReactNative
+code --install-extension rocketseat.rocketseatreactjs
+code --install-extension rocketseat.rocketseatreactnative
 code --install-extension ronnidc.nunjucks
+
