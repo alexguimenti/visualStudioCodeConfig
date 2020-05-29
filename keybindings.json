@@ -1,7 +1,5 @@
 // This file is located  at: c:\Users\YourName\AppData\Roaming\Code\User
-
 // All key binding informations and ids can be found here: https://code.visualstudio.com/docs/getstarted/keybindings
-
 // Place your key bindings in this file to override the defaults
 [
   {
@@ -11,7 +9,29 @@
   },
   {
     "key": "ctrl+shift+d",
-    "command": "lafe.duplicateCode",
+    "command": "geeebe.duplicateText",
     "when": "editorTextFocus"
+  },
+
+  { "key": "ctrl+`", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+oem_4",
+    "command": "-editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+oem_4",
+    "command": "-editor.foldRecursively",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+oem_4",
+    "command": "-editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
