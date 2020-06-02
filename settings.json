@@ -7,7 +7,7 @@
   "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.rulers": [80, 120],
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
@@ -20,16 +20,36 @@
     "nunjucks": "html",
     "html": "html"
   },
+  "editor.snippetSuggestions": "top",
   "javascript.updateImportsOnFileMove.enabled": "never",
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
-  "prettier.eslintIntegration": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
   "editor.letterSpacing": 0.5,
   "editor.largeFileOptimizations": false,
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "material-icon-theme.folders.associations": {
+    "migrations": "tools",
+  },
+
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "terminal.external.windowsExec": "C:\\\\WINDOWS\\\\System32\\\\bash.exe",
+  "C_Cpp.updateChannel": "Insiders",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sync.gist": "d176dd746ace8ded0e1f21b407503f93",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
