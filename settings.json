@@ -7,8 +7,10 @@
   "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
-  "editor.formatOnSave": false,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.tabSize": 2,
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
@@ -24,17 +26,17 @@
   "javascript.updateImportsOnFileMove.enabled": "never",
   "breadcrumbs.enabled": true,
   "editor.parameterHints.enabled": false,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Dracula",
   "editor.letterSpacing": 0.5,
   "editor.largeFileOptimizations": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-
   "explorer.compactFolders": false,
-
   "material-icon-theme.folders.associations": {
     "seeds": "environment",
     "infra": "app",
@@ -52,26 +54,25 @@
     "protos": "pipe",
     "grpc": "pipe"
   },
-
   "code-runner.runInTerminal": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "terminal.external.windowsExec": "C:\\\\WINDOWS\\\\System32\\\\bash.exe",
   "C_Cpp.updateChannel": "Insiders",
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "sync.gist": "d176dd746ace8ded0e1f21b407503f93",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features"
   }
 }
