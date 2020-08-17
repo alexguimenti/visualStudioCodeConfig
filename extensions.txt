@@ -3,8 +3,11 @@ PS C:\Windows\system32> code --list-extensions | % { "code --install-extension $
 
 
 code --install-extension aaron-bond.better-comments
+code --install-extension adpyke.vscode-sql-formatter
 code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension danielpinto8zz6.c-cpp-compile-run
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension DotJoshJohnson.xml
 code --install-extension dracula-theme.theme-dracula
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension EditorConfig.EditorConfig
@@ -20,8 +23,12 @@ code --install-extension ms-vscode-remote.remote-wsl
 code --install-extension ms-vscode.cpptools
 code --install-extension naumovs.color-highlight
 code --install-extension oderwat.indent-rainbow
+code --install-extension okitavera.vscode-nunjucks-formatter
+code --install-extension oliversturm.fix-json
+code --install-extension Perkovec.emoji
 code --install-extension PKief.material-icon-theme
-code --install-extension rocketseat.rocketseatreactjs
-code --install-extension rocketseat.rocketseatreactnative
 code --install-extension ronnidc.nunjucks
+code --install-extension Shan.code-settings-sync
+code --install-extension skyran.js-jsx-snippets
+
 
