@@ -13,7 +13,14 @@
     "when": "editorTextFocus"
   },
 
-  { "key": "ctrl+`", "command": "workbench.action.terminal.focus" },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "workbench.action.files.openFolder"
+  },
   {
     "key": "ctrl+`",
     "command": "workbench.action.focusActiveEditorGroup",
