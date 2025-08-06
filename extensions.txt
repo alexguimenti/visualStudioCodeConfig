@@ -1,38 +1,48 @@
+alexg@Mex MINGW64 ~
 $ code --list-extensions | xargs -L 1 echo code --install-extension
-PS C:\Windows\system32> code --list-extensions | % { "code --install-extension $_" }
-
-
 code --install-extension aaron-bond.better-comments
 code --install-extension adpyke.vscode-sql-formatter
-code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension danielpinto8zz6.c-cpp-compile-run
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension DotJoshJohnson.xml
+code --install-extension dotjoshjohnson.xml
 code --install-extension dracula-theme.theme-dracula
 code --install-extension dsznajder.es7-react-js-snippets
-code --install-extension EditorConfig.EditorConfig
+code --install-extension editorconfig.editorconfig
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
 code --install-extension geeebe.duplicate
-code --install-extension JulioGold.vscode-smart-split-into-lines
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+code --install-extension github.remotehub
+code --install-extension juliogold.vscode-smart-split-into-lines
 code --install-extension lafe.contextualduplicate
 code --install-extension mechatroner.rainbow-csv
+code --install-extension ms-mssql.data-workspace-vscode
 code --install-extension ms-mssql.mssql
+code --install-extension ms-mssql.sql-bindings-vscode
+code --install-extension ms-mssql.sql-database-projects-vscode
+code --install-extension ms-python.debugpy
 code --install-extension ms-python.python
+code --install-extension ms-python.vscode-pylance
+code --install-extension ms-python.vscode-python-envs
 code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter-renderers
+code --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code --install-extension ms-toolsai.vscode-jupyter-slideshow
 code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode.azure-repos
 code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.powershell
+code --install-extension ms-vscode.remote-repositories
 code --install-extension naumovs.color-highlight
 code --install-extension oderwat.indent-rainbow
-code --install-extension okitavera.vscode-nunjucks-formatter
 code --install-extension oliversturm.fix-json
-code --install-extension Perkovec.emoji
-code --install-extension PKief.material-icon-theme
+code --install-extension perkovec.emoji
+code --install-extension pkief.material-icon-theme
 code --install-extension rocketseat.rocketseatreactjs
 code --install-extension rocketseat.rocketseatreactnative
-code --install-extension ronnidc.nunjucks
-code --install-extension Shan.code-settings-sync
+code --install-extension shan.code-settings-sync
 code --install-extension skyran.js-jsx-snippets
 
-
-
+alexg@Mex MINGW64 ~
