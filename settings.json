@@ -1,78 +1,86 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 0,
-  "explorer.confirmDelete": false,
-  "explorer.confirmDragAndDrop": false,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 14,
-  "editor.lineHeight": 24,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "nunjucks": "html",
-    "html": "html"
-  },
-  "editor.snippetSuggestions": "inline",
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-  "vsicons.dontShowNewVersionMessage": true,
-  "workbench.colorTheme": "Dracula",
-  "editor.letterSpacing": 0.5,
-  "editor.largeFileOptimizations": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "explorer.compactFolders": false,
-  "material-icon-theme.folders.associations": {
-    "seeds": "environment",
-    "infra": "app",
-    "intities": "class",
-    "schemas": "class",
-    "typeorm": "database",
-    "repositories": "mappings",
-    "http": "container",
-    "migrations": "tools",
-    "modules": "components",
-    "implementations": "core",
-    "dtos": "typescript",
-    "fakes": "mock",
-    "websockets": "pipe",
-    "protos": "pipe",
-    "grpc": "pipe"
-  },
-  "code-runner.runInTerminal": true,
-  "code-runner.saveFileBeforeRun": true,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "terminal.external.windowsExec": "C:\\\\WINDOWS\\\\System32\\\\bash.exe",
-  "C_Cpp.updateChannel": "Insiders",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "sync.gist": "d176dd746ace8ded0e1f21b407503f93",
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  }
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.fontLigatures": false,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "editor.snippetSuggestions": "inline",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "editor.letterSpacing": 0.5,
+    "editor.largeFileOptimizations": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "explorer.compactFolders": false,
+    "material-icon-theme.folders.associations": {
+        "seeds": "environment",
+        "infra": "app",
+        "intities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "html":"html",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "grpc": "pipe"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "terminal.external.windowsExec": "C:\\\\WINDOWS\\\\System32\\\\bash.exe",
+    "C_Cpp.updateChannel": "Insiders",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "sync.gist": "d176dd746ace8ded0e1f21b407503f93",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ],
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "mssql.enableRichExperiences": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "none",
+    "material-icon-theme.files.associations": {
+        "*.html":"html"
+    },
 }
